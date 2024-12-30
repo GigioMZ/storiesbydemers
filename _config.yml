@@ -13,15 +13,15 @@ exclude: ["vendor/bundle/", "node_modules/", "tmp/", "log/", ".jekyll-cache", "G
 permalink: pretty  # URL structure (pretty or date)
 navigation:  # Define your site's navigation menu
   - name: "Home"
-    url: "/"  # Root path
+    url: ""  # Root path
   - name: "About"
-    url: "/about/"  # About page path
+    url: "about/"  # About page path
   - name: "Blog"
-    url: "/blog/"  # Blog page path
+    url: "blog/"  # Blog page path
   - name: "Contact"
-    url: "/contact/"  # Contact page path
+    url: "contact/"  # Contact page path
   - name: "Stories"
-    url: "/stories/"  # Stories page path
+    url: "stories/"  # Stories page path
 
 destination: dist  # Output directory
 
