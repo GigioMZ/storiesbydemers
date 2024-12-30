@@ -1,28 +1,16 @@
 title: "Stories by DeMers"  # Your website's title
 description: "A personal website by B.A. DeMers"  # Short site description
-url: "https://deafening-library-harsh.on-fleek.app"  # Full URL to your website
-baseurl: ""  # Empty if not hosting in a subdirectory
-
+url: "https://sondra94534.github.io" # During local development
+baseurl: "/storiesbydemers" # Empty if not hosting in a subdirectory
 author:
   name: "B.A. DeMers"  # Your name
-
 lang: "en-US"
 timezone: "America/Los_Angeles"
 
-exclude: 
-  - "vendor/bundle/"
-  - "node_modules/"
-  - "tmp/"
-  - "log/"
-  - ".jekyll-cache"
-  - "Gemfile.lock"
-  - "Gemfile"
-  - "vendor/cache"
-  - "vendor/gems"
-  - "vendor/ruby"
-
-permalink: pretty  # URL structure for posts/pages (e.g., "/about/" instead of "/about.html")
-
+ # Full URL to your website
+exclude: ["vendor/bundle/", "node_modules/", "tmp/", "log/", ".jekyll-cache", "Gemfile.lock", "Gemfile", "vendor/cache", "vendor/gems", "vendor/ruby"]
+  
+permalink: pretty  # URL structure (pretty or date)
 navigation:  # Define your site's navigation menu
   - name: "Home"
     url: "/"  # Root path
