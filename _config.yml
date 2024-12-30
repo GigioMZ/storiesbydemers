@@ -1,27 +1,39 @@
 title: "Stories by DeMers"  # Your website's title
 description: "A personal website by B.A. DeMers"  # Short site description
-url: "https://sondra94534.github.io" # During local development
-baseurl: "/storiesbydemers" # Empty if not hosting in a subdirectory
+url: "https://deafening-library-harsh.on-fleek.app"  # Full URL to your website
+baseurl: ""  # Empty if not hosting in a subdirectory
+
 author:
   name: "B.A. DeMers"  # Your name
+
 lang: "en-US"
 timezone: "America/Los_Angeles"
 
- # Full URL to your website
-exclude: ["vendor/bundle/", "node_modules/", "tmp/", "log/", ".jekyll-cache", "Gemfile.lock", "Gemfile", "vendor/cache", "vendor/gems", "vendor/ruby"]
-  
-permalink: pretty  # URL structure (pretty or date)
+exclude: 
+  - "vendor/bundle/"
+  - "node_modules/"
+  - "tmp/"
+  - "log/"
+  - ".jekyll-cache"
+  - "Gemfile.lock"
+  - "Gemfile"
+  - "vendor/cache"
+  - "vendor/gems"
+  - "vendor/ruby"
+
+permalink: pretty  # URL structure for posts/pages (e.g., "/about/" instead of "/about.html")
+
 navigation:  # Define your site's navigation menu
   - name: "Home"
-    url: ""  # Root path
+    url: "/"  # Root path
   - name: "About"
-    url: "about/"  # About page path
+    url: "/about/"  # About page path
   - name: "Blog"
-    url: "blog/"  # Blog page path
+    url: "/blog/"  # Blog page path
   - name: "Contact"
-    url: "contact/"  # Contact page path
+    url: "/contact/"  # Contact page path
   - name: "Stories"
-    url: "stories/"  # Stories page path
+    url: "/stories/"  # Stories page path
 
 destination: dist  # Output directory
 
