@@ -9,19 +9,19 @@ permalink: /
 
 Captivating stories that transcend time, blending imagination and reality.
 
-[Explore My Stories]({{ site.baseurl }}/stories)
+[Explore My Stories](/stories)
 
 ## About the Author
 
 Discover the journey and inspirations behind B.A. DeMers' creative works.
 
-[Learn More]({{ site.baseurl }}/about/)
+[Learn More](/about/)
 
 ## Blog
 
 Get insights into the creative process, reflections, and more from B. A. DeMers.
 
-[Visit the Blog]({{ site.baseurl }}/posts/)
+[Visit the Blog](/posts/)
 
 ---
 
